@@ -69,3 +69,12 @@ class Results:
 
 	def __str__(self):
 		return self.__repr__()
+
+	def __list__(self):
+		return self.results
+
+	def __len__(self):
+		return len(self.results)
+
+	def __iter__(self):
+		return iter(self.results)

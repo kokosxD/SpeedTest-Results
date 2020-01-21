@@ -54,8 +54,11 @@ print(r[0])
 # 	'mode': 'Multi'
 # }
 
-print(r[0]["download"])# or print(r.results[0]["download"])
+print(r[0]["download"])
 # 102.84
+
+for result in r:
+	print(result)
 
 # Save and Load
 r.Save("results.pickle")
