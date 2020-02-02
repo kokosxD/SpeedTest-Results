@@ -3,11 +3,11 @@
 Process [SpeedTest](https://www.speedtest.net/ "SpeedTest")'s results and use them in your program
 ## Installation
 ```
-git clone https://github.com/kokosxD/SpeedTest-Results
+git clone https://github.com/kokosxD/SpeedTest-Results speedtest_results
 ```
 ## Examples
 ```python
-from speedtest import Results
+from speedtest_results import Results
 
 path = "my_speedtest_results.csv"
 r = Results(path)
