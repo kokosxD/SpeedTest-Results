@@ -1,6 +1,10 @@
 # SpeedTest Results
 ---
-Process [SpeedTest's](https://www.speedtest.net/ "SpeedTest") results and use them in your program
+Process [SpeedTest](https://www.speedtest.net/ "SpeedTest")'s results and use them in your program
+## Installation
+```
+git clone https://github.com/kokosxD/SpeedTest-Results
+```
 ## Examples
 ```python
 from speedtest import Results
